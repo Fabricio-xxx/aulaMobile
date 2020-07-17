@@ -27,31 +27,33 @@ android:layout_height="wrap_content"
         app:srcCompat="@drawable/boll" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/TextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/digit_text"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button11"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="@color/colorPrimary"
-        android:textColor="@android:color/white"
         android:text="ENVIAR"
+        android:onClick="acaoButton"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/TextPersonName" />
 
     <TextView
         android:id="@+id/textView"
